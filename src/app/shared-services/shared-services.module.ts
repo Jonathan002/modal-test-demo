@@ -1,13 +1,10 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { MySharedService } from './my-shared.service';
 
-
-
 @NgModule({
-  declarations: [],
   imports: [
-    CommonModule
+    // Uncomment to get Common Module in ModalLibModule to work...
+    // ModalLibModule
   ],
   providers: [
     MySharedService
