@@ -11,7 +11,7 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     RouterModule.forRoot([
-      { path: '**', loadChildren: () => import('src/app/lazy/lazy.module').then(m => m.LazyModule) }
+      { path: '**', loadChildren: () => import('./lazy/lazy.module').then(m => m.LazyModule) }
     ]),
     NgbModalModule
   ],
