@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { MySharedService } from 'src/app/shared-services/my-shared.service';
+import { Component } from '@angular/core';
+import { MySharedService } from './../../shared-services/my-shared.service';
 
 @Component({
   selector: 'app-lazy',
