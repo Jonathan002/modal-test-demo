@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { ModalLibModule } from '../modal-lib/modal-lib.module';
 import { MySharedService } from './my-shared.service';
 
 @NgModule({
